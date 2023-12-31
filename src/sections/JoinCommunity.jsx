@@ -12,13 +12,13 @@ function JoinCommunity() {
         
 <div className=" flex justify-center gap-5 pb-16">
   <a href="/" className=" text-black bg-white rounded-full p-2 text-4xl "> <FaTelegramPlane /></a>
-  <a href="/" className="text-black bg-white rounded-full p-2 text-4xl"><FaInstagram/></a>
-  <a href="/" className="text-black bg-white rounded-full p-2 text-4xl"><FaYoutube /></a>
+ 
+
  
   
  
   <a href="/" className="text-black bg-white rounded-full p-2 text-4xl"><FaTwitter /></a>
-  <a href="/" className="text-black bg-white rounded-full p-2 text-4xl"><FaDiscord/></a>
+
 </div>
       
 
