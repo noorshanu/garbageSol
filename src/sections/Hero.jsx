@@ -12,7 +12,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 function Hero() {
   return (
     <section className="relative z-10 overflow-hidden bg-[#FFE600]">
-      <div className="container-wrapper lg:h-[90vh]  pt-2 pb-0 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
+      <div className="container-wrapper lg:h-[100vh]  pt-2 pb-0 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <div className=" text-center mt-4 sm:mt-10">
           <h1 className="text-center text-[#000] text-4xl  sm:text-8xl font-potta  pb-2 txt-s">
             {" "}
