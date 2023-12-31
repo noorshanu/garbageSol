@@ -39,13 +39,13 @@ function Navbar() {
             >
               Home
             </Link>
-            <Link
-              to="/"
-              onClick={() => setSidebarOpen(false)}
+            <a
+              href="/"
+             
               className="cursor-pointer text-sm xl:text-base"
             >
               Buy Now
-            </Link>
+            </a>
             <Link
               to="roadmap"
               onClick={() => setSidebarOpen(false)}
@@ -84,7 +84,7 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-            ROADMAP
+            Story
           </Link>
         </div>
       </div>

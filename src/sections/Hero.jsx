@@ -23,10 +23,10 @@ function Hero() {
           </p>
 
           <div className=" mt-4 flex flex-col sm:flex-row items-center gap-4 justify-center">
-            <button className=" bg-[#f79a2b] text-black font-potta text-xl sm:text-3xl rounded-lg px-14 pt-2 pb-3 ">
+            <button className=" bg-[#f79a2b] hover:bg-black  text-black hover:text-white font-potta text-xl sm:text-3xl rounded-lg px-14 pt-2 pb-3 ">
               Contarct
             </button>
-            <button className=" bg-[#f79a2b] text-black font-potta text-xl sm:text-3xl rounded-lg px-14 pt-2 pb-3 ">
+            <button className=" bg-[#f79a2b] hover:bg-black  text-black hover:text-white font-potta text-xl sm:text-3xl rounded-lg px-14 pt-2 pb-3 ">
               Buy Now
             </button>
           </div>
