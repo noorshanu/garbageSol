@@ -21,6 +21,15 @@ function Hero() {
           <p className=" font-potta text-lg sm:text-4xl mt-2">
             Never underestimate the value of useless shit garbage!
           </p>
+
+          <div className=" mt-4 flex items-center gap-4 justify-center">
+            <button className=" bg-[#f79a2b] text-black font-potta text-3xl rounded-lg px-14 pt-2 pb-3 ">
+              Contarct
+            </button>
+            <button className=" bg-[#f79a2b] text-black font-potta text-3xl rounded-lg px-14 pt-2 pb-3 ">
+              Buy Now
+            </button>
+          </div>
         </div>
         <div className="hidden sm:flex justify-between items-center mt-0 sm:mt-5 ">
           <img src="images/hero-img.png" alt="" className="h-full w-full" />
