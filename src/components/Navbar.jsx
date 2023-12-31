@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <nav className="z-[100] bg-black  ">
         <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-black h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
-          <div className="items-center justify-between text-base font-medium text-white flex px-4  sm:px-0 lg:flex">
+          <div className="items-center justify-between text-base font-medium text-white flex px-4 w-full sm:w-auto  sm:px-0 lg:flex">
           
               <img
                 src="/images/logo.png"
