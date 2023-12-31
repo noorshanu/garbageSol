@@ -11,13 +11,13 @@ function JoinCommunity() {
       <div className="container-wrapper">
         
 <div className=" flex justify-center gap-5 pb-16">
-  <a href="/" className="  hover:bg-black  text-black hover:text-white bg-white rounded-full p-2 text-4xl "> <FaTelegramPlane /></a>
+  <a href="https://t.me/garbagesol" className="  hover:bg-black  text-black hover:text-white bg-white rounded-full p-2 text-4xl "> <FaTelegramPlane /></a>
  
 
  
   
  
-  <a href="/" className=" hover:bg-black  text-black hover:text-white bg-white rounded-full p-2 text-4xl"><FaTwitter /></a>
+  <a href="https://twitter.com/GarbageSol" className=" hover:bg-black  text-black hover:text-white bg-white rounded-full p-2 text-4xl"><FaTwitter /></a>
 
 </div>
       
