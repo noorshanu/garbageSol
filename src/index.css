@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "dream";
-  src: url("/fonts/bongo.ttf");
+  font-family: "potta";
+  src: url("/fonts/PottaOne.ttf");
 }
 
 .lh-1 {
@@ -45,7 +45,7 @@
 
   html,
   body {
-    @apply bg-[#ffd51e] text-black overflow-x-hidden;
+    @apply bg-[#FFE600] text-black overflow-x-hidden;
   }
 
   .container-wrapper {
@@ -318,7 +318,7 @@ transform: scale(0.65);
 }
 
 
-.btn-main:hover{
+.btn-main:hover{        
   background: white;
   border: 1px solid black;
   color: black;
