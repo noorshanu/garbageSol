@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <nav className="z-[100] bg-black  ">
         <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-black h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
-          <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
+          <div className="items-center justify-between text-base font-medium text-white hidden lg:flex">
            
           <div>
             <img
@@ -40,20 +40,26 @@ function Navbar() {
           </button>
 
           <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
-           
           <Link
               to="/"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-              BUY NOW
+             Home
+            </Link>
+          <Link
+              to="/"
+              onClick={() => setSidebarOpen(false)}
+              className="cursor-pointer text-sm xl:text-base"
+            >
+             Buy Now
             </Link>
             <Link
               to="roadmap"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-              ROADMAP
+              Story 
             </Link>
             {/* <Link
               to="tokenomics"
@@ -63,6 +69,7 @@ function Navbar() {
               TOKENOMICS
             </Link> */}
           </div>
+          
         </div>
       </nav>
 
