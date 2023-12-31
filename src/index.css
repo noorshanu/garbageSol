@@ -86,7 +86,14 @@
   background-size: cover;
  
 }
+.mySwiper{
+  align-items: center;
+}
 
+.swiper-wrapper{
+  align-items: center;
+margin: auto;
+}
 
 
 /* KEYFRAMES */
