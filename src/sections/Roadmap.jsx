@@ -12,7 +12,7 @@ function Roadmap() {
 
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
-        <div className="flex justify-between flex-col sm:flex-row gap-5">
+        <div className="flex justify-between flex-col sm:flex-row gap-5 sm:px-0 px-4">
         <img src="images/st-1.png" alt="" className="w-full h-full" />
         <img src="images/st-2.png" alt="" className="w-full h-full mt-0 sm:mt-5" />
         <img src="images/st-3.png" alt="" className="w-full h-full" />
@@ -20,7 +20,7 @@ function Roadmap() {
         
         </div>
 
-        <div className="flex justify-between flex-col sm:flex-row gap-5 mt-4 sm:mt-14">
+        <div className="flex justify-between flex-col sm:flex-row gap-5 mt-4 sm:mt-14 sm:px-0 px-4">
         <img src="images/st-4.png" alt="" className="w-full h-full" />
         <img src="images/st-5.png" alt="" className="w-full h-full mt-0 sm:mt-24" />
         <img src="images/st-6.png" alt="" className="w-full h-full" />
